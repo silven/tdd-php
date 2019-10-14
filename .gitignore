@@ -1,3 +1,5 @@
-.phpunit.result.cache
+cov/
 vendor/
+
+.phpunit.result.cache
 *-temp.phar

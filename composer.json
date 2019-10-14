@@ -1,6 +1,8 @@
 {
     "require": {},
-    "require-dev": {},
+    "require-dev": {
+        "phpunit/php-code-coverage": "^7.0"
+    },
     "autoload": {
         "psr-4": {
             "": "src/"

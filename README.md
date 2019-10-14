@@ -24,7 +24,7 @@ M	1000
 
 ## Run tests
 ```
-$ ./phpunit --bootstrap vendor/autoload.php tests/
+$ ./phpunit --bootstrap vendor/autoload.php tests/ --whitelist src --coverage-html cov
 PHPUnit 8.3.4 by Sebastian Bergmann and contributors.
 
 ..       2 / 2 (100%)
