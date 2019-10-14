@@ -1,6 +1,6 @@
 # TDD Workshop PHP
 
-This small repository is to help you get started learning to do TDD. It contains code skeletons for the Triangle Classification exercise as well as the Roman Numerals exercise.
+This small repository is to help you get started learning to do TDD. It contains code skeletons for the Triangle Classification, Roman Numerals and Stack-implementation exercises.
 
 ## Triangle Classification
 The task is to implement functionality to classify triangles. Triangles are either:
@@ -21,6 +21,9 @@ C	100
 D	500
 M	1000
 ```
+
+## Stack
+A good example to use when learning the ZOMBIE-approach is data structures. The task here is to implement a FILO (first in, last out) stack. You can put things on the top of the stack, and you can remove things from the top of the stack.
 
 ## Run tests
 ```
