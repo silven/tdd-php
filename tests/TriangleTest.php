@@ -11,6 +11,5 @@ final class TriangleTest extends TestCase
 			Triangle::class,
 			Triangle::new(2, 3, 4)
 		);
-		);
 	}
 }
