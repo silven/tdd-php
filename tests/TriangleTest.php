@@ -9,7 +9,8 @@ final class TriangleTest extends TestCase
 	{
 		$this->assertInstanceOf(
 			Triangle::class,
-			Triangle::new(3, 2, 1)
+			Triangle::new(2, 3, 4)
+		);
 		);
 	}
 }
