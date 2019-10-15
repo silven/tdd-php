@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 final class TriangleTest extends TestCase
 {
-	public function testCanBeCreated() : void
+	public function test_CanBeCreated() : void
 	{
 		$this->assertInstanceOf(
 			Triangle::class,

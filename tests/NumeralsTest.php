@@ -5,11 +5,11 @@ use PHPUnit\Framework\TestCase;
 
 final class NumeralsTest extends TestCase
 {
-	public function testCanBeCreated() : void
+	public function test_CanBeCreatedFromString() : void
 	{
 		$this->assertInstanceOf(
 			Roman::class,
-			Roman::new("MCMLXXXIX")
+			Roman::fromString("MCMLXXXIX")
 		);
 	}
 }

@@ -7,7 +7,7 @@ final class Roman
 		$this->value = $value;
 	}
 
-	public static function new(string $input) : self
+	public static function fromString(string $input) : self
 	{
 		return new self($input);
 	}
